@@ -1,0 +1,6 @@
+#ignore the envioronment file
+.env
+
+#ignore c/c++ binary file
+.out
+.exe
