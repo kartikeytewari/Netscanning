@@ -10,7 +10,7 @@ then
     echo "Creating new environment file"
     touch .env
     g++ -o setup_dep.out setup_dep.cpp
-    ./setup_dep.out > .env
+    ./setup_dep.out 2> .env
     echo "Deleting dependencies"
     rm ./setup_dep.out
     echo "Setup succesfull"
