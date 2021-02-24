@@ -17,3 +17,4 @@ then
 else
     echo "Terminating script"
 fi
+
